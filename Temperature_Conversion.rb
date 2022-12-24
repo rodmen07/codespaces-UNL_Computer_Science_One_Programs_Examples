@@ -1,5 +1,5 @@
 # Read in a Farenheit value from the user
-# Compute a Celcius value using the formula given
+# Compute a Celsius value using the formula given
 # Output the result to the user
 
 puts "Please enter the temperature in Farenheit: "
