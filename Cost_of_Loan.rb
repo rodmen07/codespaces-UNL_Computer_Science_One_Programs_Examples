@@ -17,12 +17,13 @@
 # Return total cost.
 
 printf "Please enter the principal amount of the loan -->"
-principal = gets
+principal = gets.to_i
 printf "Please enter the annual APR in decimal-->"
-rate =  gets
+rate =  gets.to_f
 printf "Please enter the number of years to pay off the loan -->"
-num_years = gets
+num_years = gets.to_f
 monthly_rate = rate / 12
 numerator = principal * monthly_rate * (1 + monthly_rate) ** (12 * num_years)
 denominator = (1 + monthly_rate) ** (12 * num_years) - 1
-total cost = numerator / denominator * 12 * num_years - principal
+total_cost = numerator / denominator * 12 * num_years - principal
+puts total_cost.round(2)
