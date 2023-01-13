@@ -1,0 +1,5 @@
+# codespaces-UNL_Computer_Science_One_Programs_Examples
+
+This repository contains examples and exercises from The University of Nebraska-Lincolns opensource textbook for CS1/CS2
+https://cse.unl.edu/~cbourke/ComputerScienceOne.pdf
+https://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf
